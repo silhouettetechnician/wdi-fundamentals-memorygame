@@ -113,7 +113,7 @@ footer{
 	content: " ";
 	clear: both;
 	height: 0;
-	font-size: 0
+	font-size: 0;
 
 }
 
@@ -125,8 +125,15 @@ footer{
 	margin: 6px;
 }
 
-/*.social-media:hover{
-
-	color: #ffffff;
-	text-decoration: underline;
-}*/
+button{
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	height: 50px;
+	border-radius: 12px;
+	border: 3px solid #ffffff;
+	background: #00A6B3;
+	color: #F15B31;
+	opacity: 0.9;
+	font-size: 20px;
+}
